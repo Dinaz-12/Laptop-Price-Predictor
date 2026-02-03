@@ -1,0 +1,112 @@
+<IDOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictor</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+            Laptop Price Predictor
+        </div>
+
+        <form action="/">
+            <div class="inputfield">
+                <label for="ram">Ram (GB)</label>
+                <input type="text" class="input" name="ram">
+            </div>
+            <div class="inputfield">
+                <label for="weight">Weight (Kg)</label>
+                <input type="text" class="input" name="weight" required>
+            </div>
+            <div class="check">
+                <div>
+                    <label for="touchscreen">Touch Screen</label>
+                    <input type="checkbox" name="touchscreen" id="touchscreen">
+                </div>
+                    <div>
+                    <label for="ips">IPS</label>
+                    <input type="checkbox" name="ips" id="ips">
+                </div>
+            </div>
+            <div class="inputfield">
+                <label form="company"></label>Company</label>
+                <div class = "custom_select">
+                    <select name="company" id="company">
+                        <option value="" selected hidden>Select</option>
+                        <option value="acer">Acer</option>
+                        <option value="apple">Apple</option>
+                        <option value="asus">Asus</option>
+                        <option value="dell">Dell</option>
+                        <option value="hp">HP</option>
+                        <option valwe="lenovo">Lenovo</option>
+                        <option value="msi">MSI</optiom>
+                        <option value="toshiba">Toshiba</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="inputfield">
+                <label form="typename"></label>Type Name</label>
+                <div class = "custom_select">
+                    <select name="typename" id="typename">
+                        <option value="" selected hidden>Select</option>
+                        <option value="ziniconvertible">2 in 1 Convertible</option>
+                        <option value="gaming">Gaming</option>
+                        <option value="netbook">Net Book</option>
+                        <option value="notebook">Note Book</option>
+                        <option value="ultrabook">Ultra Book</option>
+                        <option value="workstation">Workstation</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="inputfield">
+                <label form="opsys"></label>Operating System</label>
+                <div class = "custom_select">
+                    <select name="opsys" id="opsys">
+                        <option value="" selected hidden>Select</option>
+                        <option value="windows">Windows</option>
+                        <option value="mac">MacOS</option>
+                        <option value="linux">Linux</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="inputfield">
+                <label form="cpuname"></label>Processor Name</label>
+                <div class = "custom_select">
+                    <select name="cpuname" id="cpuname">
+                        <option value="" selected hidden>Select</option>
+                        <option value="intelcorei3">Intel Core i3</option>
+                        <option value="intelcorei5">Intel Core i5</option>
+                        <option value="intelcorei7">Intel Core i7</option>
+                        <option value="amd">AMD</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="inputfield">
+                <label form="gpuname"></label>GPU Name</label>
+                <div class = "custom_select">
+                    <select name="gpuname" id="gpuname">
+                        <option value="" selected hidden>Select</option>
+                        <option value="intel">Intel</option>
+                        <option value="nvidia">NVIDIA</option>
+                        <option value="amd">AMD</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="inputfield">
+                <input type="submit" class="btn"
+                value="Predictor Price">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
