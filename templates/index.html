@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Predictor</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
 </head>
 <body>
     <div class="wrapper">
@@ -15,7 +18,7 @@
         <form action="/">
             <div class="inputfield">
                 <label for="ram">Ram (GB)</label>
-                <input type="text" class="input" name="ram">
+                <input type="text" class="input" name="ram" required>
             </div>
             <div class="inputfield">
                 <label for="weight">Weight (Kg)</label>
