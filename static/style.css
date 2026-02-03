@@ -246,3 +246,22 @@ select:focus{
   form{ grid-template-columns: 1fr; }
   .check{ flex-direction: column; align-items:flex-start; gap: 10px; }
 }
+
+.result{
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(184,107,255,0.35);
+  background: rgba(10,10,25,0.45);
+  font-weight: 800;
+  text-align:center;
+}
+
+.error{
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,79,216,0.35);
+  background: rgba(255,79,216,0.08);
+  color: rgba(255,255,255,0.92);
+}

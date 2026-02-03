@@ -113,3 +113,15 @@
     </div>
 </body>
 </html>
+
+{% if prediction is not none %}
+  <div class="result">
+      Estimated Price: € {{ prediction }}
+  </div>
+{% endif %}
+
+{% if error %}
+  <div class="error">
+      {{ error }}
+  </div>
+{% endif %}
